@@ -49,3 +49,27 @@ Construir uma estrutura Java 21 com Spring Boot 3.x para treinamento contendo ar
 ### Dados utilizados na interação com IA
 - Foram utilizados apenas dados fictícios.
 - Não foram compartilhados dados reais de produção ou sensíveis.
+
+---
+## Data: 2026-05-21
+
+**Ferramenta utilizada:** Gemini 3.5 Flash (High)
+**Responsável:** hebert
+**Branch:** feat/setup-java-training
+**Tarefa/Issue:** RFParallel
+**Ambiente de trabalho:** Local
+
+### Objetivo
+Adicionar exemplo de processamento paralelo utilizando Parallel Streams com uma coleção de pedidos (Order).
+
+### Arquivos alterados
+- src/main/java/br/gov/mg/pmmg/treinamento/dto/Order.java
+- src/main/java/br/gov/mg/pmmg/treinamento/service/Threads/ParallelStreamService.java
+
+### Alterações realizadas com apoio de IA
+- Criação do DTO Order para representar os pedidos com identificador, status e valor.
+- Implementação da classe ParallelStreamService contendo lógica para calcular o valor total de pedidos pagos utilizando parallel streams.
+
+### Dados utilizados na interação com IA
+- Foram utilizados apenas dados fictícios.
+- Não foram compartilhados dados reais de produção ou sensíveis.
