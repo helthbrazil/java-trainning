@@ -1,0 +1,11 @@
+.dev_author
+target/
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+.metadata/
+bin/
+dependency-reduced-pom.xml
+.DS_Store
